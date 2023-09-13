@@ -1,0 +1,59 @@
+.ourLocation {
+    margin-top: 50px;
+    text-align: center;
+    background-color: aliceblue;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ourLocation .title{
+      margin: 5px 0;
+      font-size: 45px;
+      font-weight: 600;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 500;
+  }
+
+  .ourLocation .address{
+    font-size: 30px;
+  }
+  .info{
+    font-size: 22px;
+  }
+  
+  .ourLocation button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .ourLocation button:hover {
+    background-color: #0056b3;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .contact-info a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-info a:hover {
+    color: #0056b3;
+  }
+  

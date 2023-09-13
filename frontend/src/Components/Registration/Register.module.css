@@ -1,0 +1,119 @@
+/* Default styles for larger screens */
+.loginContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 840px;
+    background-color: rgb(192, 192, 192);
+  }
+  
+  .login {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 650px;
+    background-color: rgb(255, 255, 255);
+    min-width: 1150px;
+    border-radius: 15px;
+  }
+  
+  .rightSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .rightSection h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .form .inputField {
+    height: 40px;
+    width: 400px;
+    font-size: 19px;
+    padding-left: 25px;
+  }
+  
+  .loginButton {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
+  
+  .loginButton:hover {
+    background-color: rgb(42, 38, 38);
+    transition: 0.5s all ease;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .rightSection a {
+    margin-top: 45px;
+    color: black;
+    list-style: none;
+    letter-spacing: 1.5px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .createAccount {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .registrationImg {
+    width: 500px;
+    height: 350px;
+  }
+  
+  /* Media query for tablets */
+  @media (max-width: 768px) {
+    .loginContainer {
+      min-height: auto;
+    }
+  
+    .login {
+      flex-direction: column;
+      min-width: auto;
+    }
+  
+    .rightSection {
+      margin: 10px;
+    }
+  
+    .form .inputField {
+      width: 100%;
+    }
+  
+    .loginButton {
+      width: 100%;
+    }
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 480px) {
+    .form .inputField {
+      width: 100%;
+      font-size: 16px;
+    }
+  }
+  

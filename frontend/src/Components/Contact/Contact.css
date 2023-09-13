@@ -1,0 +1,170 @@
+
+/* header */
+
+.headerSection {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(36, 57, 92, 0.8)),
+                url('https://10web-site.ai/31/wp-content/uploads/sites/34/2023/07/contact-us-bg-img_50jzw7pZ.webp');
+    height: 500px;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerText {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* opacity: 1; */
+}
+
+.heading1 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    color: white;
+    width: 850px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Contact form */
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.image-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-container p{
+    font-size: 18px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s all ease;
+}
+
+
+/* Locaation */
+
+.ourLocation {
+    margin-top: 50px;
+    text-align: center;
+    background-color: aliceblue;
+  }
+
+  .ourLocation .title{
+      margin: 5px 0;
+      font-size: 45px;
+      font-weight: 600;
+  }
+
+  .ourLocation .address{
+    font-size: 30px;
+  }
+  .info{
+    font-size: 22px;
+  }
+  
+  .ourLocation button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .ourLocation button:hover {
+    background-color: #0056b3;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .contact-info a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-info a:hover {
+    color: #0056b3;
+  }
+  

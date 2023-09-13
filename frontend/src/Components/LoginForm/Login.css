@@ -1,0 +1,155 @@
+/* Default styles for larger screens */
+.loginContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 750px;
+  background-color: blueviolet;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 650px;
+  background-color: rgb(255, 255, 255);
+  width: 1050px;
+  border-radius: 15px;
+}
+
+.rightSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightSection h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.form .inputField {
+  height: 40px;
+  width: 400px;
+  font-size: 19px;
+  padding-left: 25px;
+}
+
+.loginButton {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(70, 175, 70);
+  border: none;
+  border-radius: 25px;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.loginButton:hover {
+  background-color: rgb(33, 103, 42);
+  transition: 0.5s all ease;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.rightSection a {
+  margin-top: 45px;
+  color: black;
+  list-style: none;
+  letter-spacing: 1.5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.createAccount {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  height: 100px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.registerImage{
+  width: 350px;
+}
+
+.leftSection{
+  width: 350px;
+}
+/* Media query for tablets */
+@media (max-width: 768px) {
+  .loginContainer {
+    height: 950px;
+  }
+
+  .login {
+    flex-direction: column;
+    width: 450px;
+  }
+
+  /* .loginImg {
+    width: 500px;
+    height: 350px;
+  } */
+
+  .rightSection h1 {
+    font-size: 28px;
+  }
+
+  .form .inputField {
+    width: 100%;
+  }
+
+  .loginButton {
+    width: 100%;
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .loginContainer {
+    height: auto; /* Adjust height as needed for mobile devices */
+  }
+
+  .login {
+    width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .loginImg {
+    display: none; /* Hide the image on mobile devices */
+  }
+
+  .rightSection h1 {
+    font-size: 24px;
+  }
+
+  .form .inputField {
+    width: 100%;
+  }
+
+  .loginButton {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .rightSection a {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  .createAccount {
+    height: auto;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,256 @@
+.headSection {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(52, 94, 178, 0.6)),
+        url('https://10web-site.ai/31/wp-content/uploads/sites/34/2023/07/signeture-bg-1_50jzw7pZ.webp');
+    height: 550px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.aboutTitle {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 78px;
+    display: flex;
+    margin-top: 0px;
+}
+
+.aboutText {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+    display: flex;
+    font-size: 25px;
+    margin-top: -18px;
+}
+
+/*Appetizer */
+
+.Appetizer {
+    background-image: url('https://10web-site.ai/31/wp-content/uploads/sites/34/2023/07/Copy-of-Untitled-Design-14_50jzw7pZ.webp');
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+
+}
+
+.AppetizerText {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+}
+
+/* Appetizer Menu */
+.menuSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* min-height: 100%; */
+    /* width: 100%; */
+}
+
+.ourMenu {
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.title2 {
+    font-family: sans-serif;
+    margin: 50px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    /* width: 200px; */
+    position: relative;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+/* .title2:before {
+    content: "";
+    display: block;
+    width: 80%;
+    height: 5px;
+    background: #ffffff;
+    left: 100%;
+    top: 50%;
+    position: absolute;
+  }
+  .title2:after {
+    content: "";
+    display: block;
+    width: 80%;
+    height: 4px;
+    background: #ffffff;
+    right: 100%;
+    top: 50%;
+    position: absolute;
+  } */
+
+.menusSection {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(38, 37, 37);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Dishes Section */
+
+.dishesSection {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    gap: 25px;
+    background-color: rgb(40, 40, 40);
+    /* margin-top: 5px; */
+    min-height: 950px;
+}
+
+.items {
+    /* margin: 50px; */
+    margin-left: 55px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.menuSection button {
+    margin-top: 80px;
+    height: 50px;
+    width: 150px;
+    font-size: 16px;
+    background-color: rgb(38, 37, 37);
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.menuSection button:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    transition: 0.3s all ease;
+}
+
+.menuDescription p {
+    letter-spacing: 1.5px;
+    font-size: 18px;
+
+}
+
+.foodName {
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    gap: 30px;
+}
+
+.test {
+    margin-top: 150px;
+    /* width: 600px; */
+}
+
+.items {
+    border-bottom: 4px solid blue;
+    padding-bottom: 20px;
+    margin-bottom: -80px;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* reservationSection */
+.reservationSection{
+    background-image: url('https://10web-site.ai/31/wp-content/uploads/sites/34/2023/07/inside-restaurant-topview-2_50jzw7pZ.webp');
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.registerTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+.registerText{
+    font-size: 20px;
+    width: 450px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.register2{
+    font-size: 20px;
+    width: 450px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.registerNumber{
+    font-size: 20px;
+    width: 450px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 768px) {
+
+    .menuSection {
+        padding: 50px 20px;
+    }
+
+    .dishesSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* grid-template-columns: 1fr; */
+        min-height: auto;
+    }
+
+    .items {
+       
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+
+    .test {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .menuSection button {
+        margin-top: 30px;
+    }
+
+    
+}

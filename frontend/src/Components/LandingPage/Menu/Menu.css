@@ -1,0 +1,141 @@
+
+.menuSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* min-height: 100%; */
+    /* width: 100%; */
+}
+
+.ourMenu{
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.title2 {
+    font-family: sans-serif;
+    margin: 50px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    /* width: 200px; */
+    position: relative;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+  /* .title2:before {
+    content: "";
+    display: block;
+    width: 80%;
+    height: 5px;
+    background: #ffffff;
+    left: 100%;
+    top: 50%;
+    position: absolute;
+  }
+  .title2:after {
+    content: "";
+    display: block;
+    width: 80%;
+    height: 4px;
+    background: #ffffff;
+    right: 100%;
+    top: 50%;
+    position: absolute;
+  } */
+
+  .menusSection{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(38, 37, 37);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Dishes Section */
+
+.dishesSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: -85px;
+}
+
+.items{
+    /* margin: 50px; */
+    margin-left: 55px;
+}
+
+
+.menuSection button{
+    margin-top: 80px;
+    height: 50px;
+    width: 150px;
+    font-size: 16px;
+    background-color: rgb(38, 37, 37);
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.menuSection button:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    transition: 0.3s all ease;
+}
+
+.menuDescription p{
+    letter-spacing: 1px;
+    font-size: 18px;
+    
+}
+
+.foodName{
+    font-size: 22px;
+    letter-spacing: 1px;
+    gap: 30px;
+}
+
+.test{
+    margin-top: 150px;
+    /* width: 600px; */
+}
+
+.items {
+    border-bottom: 4px solid blue;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  
+    .menuSection {
+      padding: 50px 20px;
+    }
+  
+    .dishesSection {
+      flex-direction: column; 
+      align-items: center;
+    }
+  
+    .items {
+      text-align: center; 
+      margin-left: 0;
+      margin-bottom: 30px; 
+    }
+  
+    .test {
+      width: 100%;
+    }
+  
+    .menuSection button {
+      margin-top: 30px;
+    }
+  
+
+  }
+  
+  

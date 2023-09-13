@@ -1,0 +1,343 @@
+.AboutHeader {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(31, 53, 96, 0.8)),
+        url('https://10web-site.ai/31/wp-content/uploads/sites/34/2023/07/about-section-bg-img_50jzw7pZ.webp');
+    height: 450px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    background-position: center;
+}
+
+ .AboutHeader .aboutTitle{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 78px;
+    display: flex;
+    margin-top: 0px;
+}
+
+.aboutText{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+    display: flex;
+    font-size: 25px;
+    margin-top: -18px;    
+}
+
+
+/* ourStory */
+
+.ourStory{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 350px;
+    
+}
+
+.storyTitle{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.storyText{
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    /* text-align: center; */
+
+}
+
+/* sect3 */
+
+.sect3{
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.rightSectionImage{
+    height: 450px;
+}
+
+.icon{
+    height: 60px;
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(29, 129, 222);
+    font-size: 45px;
+    color: white;
+    border-radius: 50%;
+}
+
+.icon:hover{
+    background-color: rgb(159, 175, 160);
+    transition: 0.5s all ease;
+    cursor: pointer;
+}
+
+.sections{
+    display: flex;
+    height: 100px;
+    gap: 20px;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    margin-bottom: 35px;
+    width: 450px;
+}
+
+.sec4Text .title{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.sec4Text .text{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* ourSpecalities */
+
+.ourSpecalities{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 99%;
+    background-color: rgb(32, 31, 31);
+    height: 650px;
+    margin-top: 100px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info .infoTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+
+.info .infoText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+
+.info .infoText p{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    color: white;
+
+    /* text-align: center; */
+}
+
+.specialRecipies{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+    margin-right: 35px;
+}
+
+.recipeImages{
+    width: 350px;
+    height: 350px;
+}
+
+.infoBtn{
+    background-color: white;
+}
+
+.infoBtn:hover{
+    background-color: aliceblue;
+    transition: 0.5s all ease;
+    color: black;
+}
+
+.recipie1 h1{
+    text-align: center;
+    width: 300px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.recipie1 p{
+    text-align: center;
+    color: rgb(84, 133, 56);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.recipie2{
+    /* width: 350px; */
+}
+
+.recipie2 h1{
+    text-align: center;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+.recipie2 p{
+    text-align: center;
+    text-align: center;
+    color: rgb(84, 133, 56);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* meetTeam1 */
+.meetTeam1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: 100%;
+}
+
+.meetTeam1 .title{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.meetTeam1 .text{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+}
+
+/* meetTeam2 */
+
+.meetTeam2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    height: 860px;
+    background-color: rgb(227, 227, 227);
+}
+
+.meetTeam2Img{
+    width: 450px;
+}
+.meetTeam2Images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.meetTeam2Images p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.meetTeam2Images .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+    font-size: 35px;
+    color: rgb(29, 118, 169);
+    cursor: pointer;
+}
+
+@media (max-width:768px){
+    .sect3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 150px;
+    }
+
+    .ourStory{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 100px;
+    }
+    .ourSpecalities{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 250px;
+        min-height: 1050px;
+        width: 100%;
+        height: 100%;
+    }
+    .specialRecipies{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .recipie1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .recipie2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .meetTeam1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .meetTeam1 .text{
+        width: 100%;
+    }
+    .meetTeam2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+

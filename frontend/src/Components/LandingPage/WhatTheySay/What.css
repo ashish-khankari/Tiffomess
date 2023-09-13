@@ -1,0 +1,63 @@
+/* What.css */
+.whatTheySay {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(18, 23, 34, 0.8)
+      ),
+      url("https://10web-site.ai/31/wp-content/uploads/sites/34/2023/07/testimonail-section-bg-1_50jzw7pZ.webp");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
+    margin-top: 150px;
+    padding: 100px 0;
+    margin-left: 1px;
+  }
+  
+  .card {
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    /* padding: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card p {
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+  }
+  
+  .cardtext {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .cardtext h1{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .testimonialImages {
+    width: 80px;
+    height: 80px;
+    border: 6px solid rgb(38, 242, 201); /* Add a border with white color */
+    border-radius: 50%; /* Make the image circular */
+}
+
+  
+  @media (max-width: 768px) {
+    .whatTheySay {
+      padding: 50px 0;
+      gap: 30px;
+    }
+  
+    .card {
+      width: 100%;
+      max-width: 400px;
+      margin: 15px auto;
+    }
+  }
+  
