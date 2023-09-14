@@ -114,11 +114,12 @@ const HotelRegistration = () => {
     }
 
     if(name, email, mobile, hotelName, location, district, state, pin, image, tiffinRate, tiffinperDay, tiffinperMonth, foodType, holiday, description ){
-      axios.post("http://localhost:3000/hotelForm", { name, email, mobile, hotelName, location, district, state, pin, image, tiffinRate, tiffinperDay, tiffinperMonth, foodType, holiday, description })
+      axios.post("http://localhost:3800/hotelForm", { name, email, mobile, hotelName, location, district, state, pin, image, tiffinRate, tiffinperDay, tiffinperMonth, foodType, holiday, description })
       .then(result => console.log(result))
       .catch(err => console.log(err))
     navigate('/showUsers')
     }
+
   }
 
   return (
@@ -224,7 +225,7 @@ const HotelRegistration = () => {
                 value={tiffinRate}
               />
               <p className={styles.errorMessage}>{error}</p>
-              <FormControl>
+              {/* <FormControl>
                 <InputLabel id="demo-simple-select-label">Enter Tiffin Rate/Day</InputLabel>
                 <Select
                   labelId="demo-simple-select-helper-label"
@@ -297,8 +298,8 @@ const HotelRegistration = () => {
                   <MenuItem value={30}>Saturday</MenuItem>
                   <MenuItem value={30}>Sunday</MenuItem>
                 </Select>
-              </FormControl>
-              <p className={styles.errorMessage}>{error}</p>
+              </FormControl> */}
+              {/* <p className={styles.errorMessage}>{error}</p> */}
               <textarea
                 name="description"
                 id=""

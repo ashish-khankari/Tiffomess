@@ -57,6 +57,12 @@ router.get('/', async (req, res) => {
 router.post('/hotelForm', async (req, res) => {
     try {
         let data = await formSchema.create(req.body)
+
+        if(usedData){
+            return res.json({message: "Already Registered with this Email/Mobile Number"})
+        }
+        let usedData = await formSchema.findOne({email, hotelName, mobile})
+
         res.json(data)
     } catch (error) {
         res.json(err)
