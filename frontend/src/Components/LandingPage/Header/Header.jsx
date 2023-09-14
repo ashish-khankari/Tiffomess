@@ -26,6 +26,7 @@ const Header = () => {
                     <Link to={'/menu'}><li>Menu</li></Link>
                     <Link to={'/contact'}><li>Contact</li></Link>
                     <Link to={'/about'}><li>About Us</li></Link>
+                    <Link to={'/showUsers'}><li>Mess Services</li></Link>
 
                     {/* <Link to={'/register'}><li>Register</li></Link> */}
                     {
