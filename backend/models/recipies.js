@@ -1,34 +1,53 @@
 const mongoose = require('mongoose')
 
-const recipeSchema = new mongoose.Schema({
+const form = new mongoose.Schema({
     name: {
-        type: String,
-        required: true
+        type:String
     },
-    ingridients: 
-        [{type: String,
-        required: true}]
-    ,
-    instructions:{
-        type: String,
-        required: true
+    email: {
+        type: String
     },
-    imageUrl:{
-        type: String,
-        required: true
+    mobile:{
+        type: Number
     },
-    cookingTime:{
-        type: Number,
-        required: true
+    hotelName:{
+        type: String
     },
-    userOwner:{
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "users",
-        required: true
+    location:{
+        type: String
+    },
+    district:{
+        type: String
+    },
+    state:{
+        type: String
+    },
+    pin:{
+        type: Number
+    },
+    image:{
+        type: String
+    },
+    tiffinRate:{
+        type: String
+    },
+    tiffinperDay:{
+        type: String
+    },
+    tiffinperMonth:{
+        type: String
+    },
+    foodType:{
+        type: String
+    },
+    holiday:{
+        type: String
+    },
+    description:{
+        type: String
     }
-
 })
 
-const RecipeModel = mongoose.model("recipiesModel", recipeSchema)
+const formSchema = mongoose.model("formSchema", form)
 
-module.exports = RecipeModel
+module.exports = formSchema

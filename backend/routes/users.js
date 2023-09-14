@@ -2,6 +2,7 @@ const express = require('express')
 const jwt = require('jsonwebtoken')
 const bcrypt = require('bcrypt')
 const User = require('../models/Users')
+const formSchema = require("../models/recipies")
 const router = express.Router()
 
 router.post('/register', async (req, res) => {
@@ -44,4 +45,21 @@ router.post("/login", async (req, res) => {
     res.json({ token, userID: user._id })
 })
 
+// Form Routes
+router.get('/', async (req, res) => {
+    formSchema.find({})
+        .then(users => res.json(users))
+        // .then(users=>console.log(users))
+
+        .catch(err => res.json(err))
+})
+
+router.post('/hotelForm', async (req, res) => {
+    try {
+        let data = await formSchema.create(req.body)
+        res.json(data)
+    } catch (error) {
+        res.json(err)
+    }
+})
 module.exports = router

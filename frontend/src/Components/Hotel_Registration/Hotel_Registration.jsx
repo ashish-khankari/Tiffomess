@@ -30,96 +30,96 @@ const HotelRegistration = () => {
   const [error, setError] = useState("")
   const navigate = useNavigate()
 
-//   function submit(e) {
-//     e.preventDefault()
+  function submit(e) {
+    e.preventDefault()
     
-//     // || !email || !mobile|| !hotelName || !location|| !state|| !district|| !pin|| !image|| !tiffinRate|| !tiffinRate|| !tiffinperDay|| !tiffinperMonth || !foodType || !holiday || !description
-//     if (!name) {
-//       setError("Please Add full Name")
-//     } else {
-//       setError("")
-//     }
-//     const emailRegex = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
-//     if (!emailRegex.test(email)) {
-//       setError("Enter Correct Email");
-//     } else {
-//       setError("");
-//     }
+    // || !email || !mobile|| !hotelName || !location|| !state|| !district|| !pin|| !image|| !tiffinRate|| !tiffinRate|| !tiffinperDay|| !tiffinperMonth || !foodType || !holiday || !description
+    if (!name) {
+      setError("Please Add full Name")
+    } else {
+      setError("")
+    }
+    const emailRegex = /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/;
+    if (!emailRegex.test(email)) {
+      setError("Enter Correct Email");
+    } else {
+      setError("");
+    }
 
-//     if (!hotelName) {
-//       setError("Please Add Name of Hotel")
-//     } else {
-//       setError("")
-//     }
-//     if (mobile.length != 10) {
-//       setError("Mobile Number should be of 10 digits")
-//     } else {
-//       setError("")
-//     }
-//     if (!location) {
-//       setError("Please Add full Name")
-//     } else {
-//       setError("")
-//     }
-//     if (!state) {
-//       setError("Please Add full Name")
-//     } else {
-//       setError("")
-//     }
-//     if (!district) {
-//       setError("Please Add full Name")
-//     } else {
-//       setError("")
-//     }
-//     if (!pin) {
-//       setError("Please Add full Name")
-//     } else {
-//       setError("")
-//     }
-//     if (!image) {
-//       setError("Please Add full Name")
-//     } else {
-//       setError("")
-//     }
-//     if (!tiffinRate) {
-//       setError("Please Seclect a value")
-//     } else {
-//       setError("")
-//     }
-//     if (!tiffinperDay) {
-//       setError("Please Seclect a value")
-//     } else {
-//       setError("")
-//     }
-//     if (!tiffinperMonth) {
-//       setError("Please Seclect a value")
-//     } else {
-//       setError("")
-//     }
-//     if (!foodType) {
-//       setError("Please Seclect a value")
-//     } else {
-//       setError("")
-//     }
+    if (!hotelName) {
+      setError("Please Add Name of Hotel")
+    } else {
+      setError("")
+    }
+    if (mobile.length != 10) {
+      setError("Mobile Number should be of 10 digits")
+    } else {
+      setError("")
+    }
+    if (!location) {
+      setError("Please Add full Name")
+    } else {
+      setError("")
+    }
+    if (!state) {
+      setError("Please Add full Name")
+    } else {
+      setError("")
+    }
+    if (!district) {
+      setError("Please Add full Name")
+    } else {
+      setError("")
+    }
+    if (!pin) {
+      setError("Please Add full Name")
+    } else {
+      setError("")
+    }
+    if (!image) {
+      setError("Please Add full Name")
+    } else {
+      setError("")
+    }
+    if (!tiffinRate) {
+      setError("Please Seclect a value")
+    } else {
+      setError("")
+    }
+    if (!tiffinperDay) {
+      setError("Please Seclect a value")
+    } else {
+      setError("")
+    }
+    if (!tiffinperMonth) {
+      setError("Please Seclect a value")
+    } else {
+      setError("")
+    }
+    if (!foodType) {
+      setError("Please Seclect a value")
+    } else {
+      setError("")
+    }
 
-//     if (!holiday) {
-//       setError("Please Seclect a value")
-//     } else {
-//       setError("")
-//     }
-//     if (!description) {
-//       setError("Please Seclect a value")
-//     } else {
-//       setError("")
-//     }
+    if (!holiday) {
+      setError("Please Seclect a value")
+    } else {
+      setError("")
+    }
+    if (!description) {
+      setError("Please Seclect a value")
+    } else {
+      setError("")
+    }
 
-//     if(name, email, mobile, hotelName, location, district, state, pin, image, tiffinRate, tiffinperDay, tiffinperMonth, foodType, holiday, description ){
-//       axios.post("http://localhost:3000/hotelForm", { name, email, mobile, hotelName, location, district, state, pin, image, tiffinRate, tiffinperDay, tiffinperMonth, foodType, holiday, description })
-//       .then(result => console.log(result))
-//       .catch(err => console.log(err))
-//     navigate('/showUsers')
-//     }
-//   }
+    if(name, email, mobile, hotelName, location, district, state, pin, image, tiffinRate, tiffinperDay, tiffinperMonth, foodType, holiday, description ){
+      axios.post("http://localhost:3000/hotelForm", { name, email, mobile, hotelName, location, district, state, pin, image, tiffinRate, tiffinperDay, tiffinperMonth, foodType, holiday, description })
+      .then(result => console.log(result))
+      .catch(err => console.log(err))
+    navigate('/showUsers')
+    }
+  }
 
   return (
     <div className={styles.mainContainer}>
@@ -224,7 +224,7 @@ const HotelRegistration = () => {
                 value={tiffinRate}
               />
               <p className={styles.errorMessage}>{error}</p>
-              {/* <FormControl>
+              <FormControl>
                 <InputLabel id="demo-simple-select-label">Enter Tiffin Rate/Day</InputLabel>
                 <Select
                   labelId="demo-simple-select-helper-label"
@@ -297,7 +297,7 @@ const HotelRegistration = () => {
                   <MenuItem value={30}>Saturday</MenuItem>
                   <MenuItem value={30}>Sunday</MenuItem>
                 </Select>
-              </FormControl> */}
+              </FormControl>
               <p className={styles.errorMessage}>{error}</p>
               <textarea
                 name="description"

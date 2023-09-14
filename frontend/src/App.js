@@ -6,6 +6,7 @@ import Menu from './Components/MenuSection/MenuSection';
 import Home from './Components/Home/Home';
 import { useCookies } from 'react-cookie';
 import Login from './Components/LoginForm/Login';
+import HotelRegistration from './Components/Hotel_Registration/Hotel_Registration';
 
 export default function App() {
   const [cookies] = useCookies(['access_token']);
@@ -27,7 +28,7 @@ export default function App() {
             <Route path='/contact' element={<Contact />} />
             <Route path='/about' element={<About />} />
             <Route path='/menu' element={<Menu />} />
-            {/* <Route path='/registerServices' element={<HotelRegistration />} /> */}
+            <Route path='/registerServices' element={<HotelRegistration/>} />
           </>
         ) : null}
         <Route path='/login' element={<Login/>}/>
