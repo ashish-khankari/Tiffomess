@@ -19,7 +19,6 @@ router.post('/register', async (req, res) => {
 
     res.json({ message: "User Registered Succesfully" })
 
-
     // console.log(user)
 })
 
