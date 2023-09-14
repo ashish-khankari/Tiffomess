@@ -1,15 +1,13 @@
 import React from 'react'
 import './Dishes.css'
 
-const Dishes = () => {
+export default function Dishes() {
   return (
     <div className='dishes'>
-        <img className='dish' src="https://10web-site.ai/31/wp-content/uploads/sites/34/2023/07/fine-dining-food-1_eSk6wvww.webp" alt="" srcset="" />
-        <img className='dish' src="https://10web-site.ai/31/wp-content/uploads/sites/34/2023/07/having-lunch-together_eSk6wvww.webp" alt="" srcset="" />
-        <img className='dish' src="https://10web-site.ai/31/wp-content/uploads/sites/34/2023/07/people-having-drink-at-daytime-1_eSk6wvww.webp" alt="" srcset="" />
+      <img className='dish' src="https://images.pexels.com/photos/7441761/pexels-photo-7441761.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" srcset="" />
+      <img className='dish' src="https://images.pexels.com/photos/15564188/pexels-photo-15564188/free-photo-of-pancakes-with-berries-and-marple-syrup.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" srcset="" />
+      <img className='dish' src="https://images.pexels.com/photos/17593640/pexels-photo-17593640/free-photo-of-food-restaurant-spoon-drinks.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" srcset="" />
 
     </div>
   )
 }
-
-export default Dishes
