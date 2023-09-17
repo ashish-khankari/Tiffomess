@@ -8,7 +8,6 @@ const route = require("./routes/users")
 // when data is send from front end it will convert to json
 app.use(express.json())
 app.use(cors())
-
 mongoose.connect("mongodb+srv://ashishkhankari0922:tiffomemern@tiffomemern.7uiihlc.mongodb.net/tiffomemern?retryWrites=true&w=majority",{
     useNewUrlParser: true,
     useUnifiedTopology: true
